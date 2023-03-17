@@ -1,0 +1,45 @@
+.chat {
+  position: relative;
+  flex: 2;
+  background-color: #4444;
+  border-radius: 8px;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.chat .chatInfo {
+  height: 50px;
+  background-color: #07a58e;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  /* justify-content: space-between; */
+  padding: 10px;
+  font-family: "Work sans", serif;
+  font-size: 1rem;
+  color: white;
+}
+
+.chat .chatInfo .ChatInfo__user_img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.chat .message_div {
+  height: 80%;
+}
+
+.chat .select_a_chat {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: 2rem;
+  font-family: "Work sans", serif;
+}

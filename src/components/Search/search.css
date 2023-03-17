@@ -1,0 +1,73 @@
+.search {
+  width: 100%;
+  border-bottom: 1px solid gray;
+  position: relative;
+}
+.search .searchUserList {
+  position: absolute;
+  background-color: #cecece;
+  width: 100%;
+  border-radius: 8px;
+  top: 80px;
+}
+.search .searchForm {
+  padding: 10px;
+  display: flex;
+  position: relative;
+  width: 100%;
+}
+
+.search .searchForm .searchIcon {
+  position: absolute;
+  right: 20px;
+  cursor: pointer;
+  color: green;
+  font-size: 1.5rem;
+  align-self: center;
+}
+
+.search .searchForm input {
+  width: 100%;
+  background-color: rgb(211, 211, 211);
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  padding-right: 2.5rem;
+  color: black;
+  outline: none;
+}
+
+.search .searchForm input::placeholder {
+  color: green;
+}
+
+.userChat {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: black;
+  cursor: pointer;
+}
+
+.userChat:hover {
+  background-color: grey;
+}
+
+.userChat img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.userChat .userChatInfo span {
+  font-size: 18px;
+  color: green;
+  font-weight: 500;
+}
+
+.userChat .userChatInfo p {
+  font-size: 14px;
+  color: white;
+}
